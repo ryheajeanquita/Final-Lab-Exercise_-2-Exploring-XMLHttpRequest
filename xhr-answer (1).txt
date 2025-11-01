@@ -1,0 +1,11 @@
+What the is difference between  readyState and Status in XMLHttpRequest?
+readyState describes the progress of the client-side request and its interaction with the server, while status describes the outcome of the server's processing of that request.The readyState property indicates the current state of the XMLHttpRequest object itself, detailing the lifecycle of the request.The status property represents the HTTP status code returned by the server as part of the response.
+
+How can can you make the request asynchronous?
+In JavaScript, requests can be made asynchronous through several mechanisms, primarily using Promises and async/await syntax, which are built upon Promises.
+fetch and XMLHttpRequest are the underlying mechanisms for making HTTP requests.
+Promises provide a structured way to handle the eventual success or failure of an asynchronous operation.
+async/await is syntactic sugar built on Promises, offering a more readable and manageable approach to asynchronous programming.
+
+Why is asynchronous communication recommended for web application?
+Asynchronous communication is recommended for web applications primarily because it improves user experience by keeping the application responsive and boosts performance and scalability by optimizing how the server handles requests. 
